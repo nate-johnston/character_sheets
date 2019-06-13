@@ -12,3 +12,11 @@ which I have configured to run ERB on any templates it finds.  It also will
 refresh my website, which is built using [Hugo](https://gohugo.io/).  That way
 whenever I `git push` the ERB for a character sheet, it is automatically
 templated and published.
+
+# So that means I don't have to write any HTML, any AT ALL!!
+
+No, not so fast.  There is a lot that is customized about character sheets.
+This makes things much more automated but there are a lot of little quirks that
+still need to be reflected.  But the goal is that when the character goes up a
+level, you just adjust the level line and push and suddenly all the attack
+bonuses, spell DCs, skill bonuses etc. all are automatically recalculated.
